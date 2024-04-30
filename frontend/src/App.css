@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Pacifico&display=swap');
+
+.App {
+  text-align: center;
+  font-family: "Lugrasimo", cursive;
+}
+
+nav{
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+}
+
+nav h2{
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Home .Main{
+  color: white;
+  display: inline;
+  align-items: center;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.Home .Main h1{
+  position:relative;
+  top: 5%;
+}
+
+.Home .Main p{
+  position:relative;
+  top: 5%;
+  font-size: large;
+}
+
+.Home .Main .btn, .Form form, .Form .OP{
+  position: relative;
+  top: 5%;
+}
+.Home,.Form{
+  background-color: #111111;
+  height: 135vh;
+}
+
+#home-logo{
+  height: 40vmin;
+  width: 40vmin;
+  position: relative;
+  left: 40%;
+  top: 4%;
+  content: url(./logo.png);
+  border-radius: 25px;
+}
+
+#form-logo{
+  height: 20vmin;
+  width: 20vmin;
+  position: relative;
+  left: 45%;
+  top: 4%;
+  content: url(./logo.png);
+  border-radius: 20px;
+}
+
+#form{
+  color: white;
+  background-color: #222222;
+  padding-left: 15%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  padding-bottom: 1%;
+}
+
+.btn{
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  align-items: center;
+  font-family: "Lugrasimo", cursive;
+}
+
+#predict-btn{
+  position: relative;
+  left: -10%;
+}
+
+.drop{
+  background-color: white;
+}
+
+#OP{
+  font-weight: bold;
+  color: white;
+  padding-bottom: 3%;
+}
