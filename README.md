@@ -6,8 +6,8 @@ ObeSense is a predictive model built using RandomForestClassifier to classify ob
 **Getting Started:**
 
 **Clone the Repository:**
-git clone https://github.com/obesense-project.git
-cd obesense-project
+git clone https://github.com/RahulGanapathy/ObeSense-Django.git
+cd ObeSense-Django
 
 **Backend Setup:**
 Navigate to the backend directory.
