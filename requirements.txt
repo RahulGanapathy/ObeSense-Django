@@ -1,0 +1,5 @@
+pandas
+django
+django-cors-headers
+joblib
+scikit-learn==1.2.2

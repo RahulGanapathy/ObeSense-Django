@@ -1,0 +1,29 @@
+version: '3.2'
+
+services:
+  backend:
+    restart: always
+    container_name: django
+    build:
+      context: /
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/backend
+    command: python manage.py runserver 0.0.0.0:8000
+
+  frontend:
+    restart: always
+    container_name: react
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/frontend
+    depends_on:
+      - backend
+    command: npm start
+    stdin_open: true
